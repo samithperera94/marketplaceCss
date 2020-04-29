@@ -1,0 +1,131 @@
+ body {
+  background: #3790cc !important;
+  margin: 0;
+}
+
+ .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ .flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ .justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ .justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ .align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ .w-100 {
+  width: 100%;
+}
+
+ .page-header {
+  padding-top: 50px;
+}
+
+ .page-header.no-bg .navbar .vuulr-logo {
+  padding-left: 30px;
+}
+
+ .page-header.no-bg .navbar .links a {
+  color: #545050;
+}
+
+ .page-header.no-bg .navbar .links a:hover {
+  color: #837d7c;
+}
+
+ .page-header.no-bg .navbar .links a.login {
+  border: 1px solid #f45919;
+  font-size: 18px;
+  color: #f45919;
+  letter-spacing: 0;
+}
+
+@media (min-width: 1500px) {
+   .page-header .container {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+}
+
+ .page-header .navbar {
+  margin-bottom: 30px;
+}
+
+ .page-header .navbar .links {
+  font-size: 24px;
+}
+
+ .page-header .navbar .links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+ .page-header .navbar .links a:hover {
+  color: #f2f2f2;
+}
+
+ .page-header .navbar .links a.login {
+  width: 99px;
+  height: 37px;
+  border: 1px solid #fff;
+  font-size: 18px;
+}
+
+ a.button.button-blue,
+ a.button.button-primary {
+  background-color: #f45919;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 0;
+  border: none;
+  line-height: 48px;
+  padding: 0 20px;
+  display: block;
+}
+
+ table td {
+  background-color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+   .inner-body {
+    width: 100% !important;
+  }
+
+   .footer {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+   .button {
+    width: 100% !important;
+  }
+}
+
